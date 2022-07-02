@@ -29,12 +29,14 @@ int main()
 	SetConsoleOutputCP(1251);
 
 	//Figure f = {};
-	//Triangle triagle = {10,20,30,50,60,70 };
+	Triangle triagle = {10,20,30,50,60,70 };
+	Triangle triagle2 = { 10,20,30,50,60,190 };
 	//Rectangular_triangle r_triagle = { 10,20,30,50,60 };
 	//Isosceles_triangle i_triagle = { 10,20,10,60 };
 	//Equilateral_triangle e_triagle = { 10 };
 
-	Quadrangle quadrangle = { 10,20,30,40,90,90,90,90 }; // четырех угольник
+	Quadrangle quadrangle = { 10,20,30,40,90,90,00,90 };
+	Quadrangle quadrangle2 = { 10,20,30,40,90,90,90,90 };// четырех угольник
 	//My_Rectangle rectangle = { 10,20 };//прямоугольник
 	//Square square = { 20 }; // квадрат
 	//Parallelogram parallelogram = { 20,30,30,40 }; //параллелограмм

@@ -48,7 +48,10 @@
     <ClCompile Include="class_Isosceles_triangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="MyException.cpp">
+    <ClCompile Include="MyExceptionQuadrangle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExceptionTriagle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,7 +92,10 @@
     <ClInclude Include="Triagle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="MyException.h">
+    <ClInclude Include="MyExceptionQuadrangle.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExceptionTriagle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

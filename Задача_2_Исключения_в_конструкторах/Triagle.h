@@ -6,7 +6,7 @@ class Triangle : public Figure //треугольник скц
 {
 public:
 	Triangle();
-	Triangle(int &a, int b, int c, int A, int B, int C);
+	Triangle(int a, int b, int c, int A, int B, int C);
 protected:
 	std::string get_sides();
 	std::string get_corn();

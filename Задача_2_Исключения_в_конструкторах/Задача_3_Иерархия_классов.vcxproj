@@ -138,7 +138,8 @@
     <ClCompile Include="class_Square.cpp" />
     <ClCompile Include="classParallelogram.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="MyException.cpp" />
+    <ClCompile Include="MyExceptionQuadrangle.cpp" />
+    <ClCompile Include="MyExceptionTriagle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Equilateral_triangle.h" />
@@ -146,7 +147,8 @@
     <ClInclude Include="Header.h" />
     <ClInclude Include="Head_includeclass.h" />
     <ClInclude Include="Isosceles_triangle.h" />
-    <ClInclude Include="MyException.h" />
+    <ClInclude Include="MyExceptionQuadrangle.h" />
+    <ClInclude Include="MyExceptionTriagle.h" />
     <ClInclude Include="My_Rectangle.h" />
     <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Quadrangle.h" />
