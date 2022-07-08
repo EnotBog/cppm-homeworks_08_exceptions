@@ -131,15 +131,14 @@
     <ClCompile Include="classTriagle.cpp" />
     <ClCompile Include="class_Equilateral_triangle.cpp" />
     <ClCompile Include="class_Isosceles_triangle.cpp" />
-    <ClCompile Include="class_My_Rectangle.cpp" />
+    <ClCompile Include="class_Rectangle.cpp" />
     <ClCompile Include="class_Quadrangle.cpp" />
     <ClCompile Include="class_Rectangular_triangle.cpp" />
     <ClCompile Include="class_Rhomb.cpp" />
     <ClCompile Include="class_Square.cpp" />
     <ClCompile Include="classParallelogram.cpp" />
+    <ClCompile Include="MyException.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="MyExceptionQuadrangle.cpp" />
-    <ClCompile Include="MyExceptionTriagle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Equilateral_triangle.h" />
@@ -147,9 +146,8 @@
     <ClInclude Include="Header.h" />
     <ClInclude Include="Head_includeclass.h" />
     <ClInclude Include="Isosceles_triangle.h" />
-    <ClInclude Include="MyExceptionQuadrangle.h" />
-    <ClInclude Include="MyExceptionTriagle.h" />
-    <ClInclude Include="My_Rectangle.h" />
+    <ClInclude Include="MyException.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Quadrangle.h" />
     <ClInclude Include="Rectangular_triangle.h" />

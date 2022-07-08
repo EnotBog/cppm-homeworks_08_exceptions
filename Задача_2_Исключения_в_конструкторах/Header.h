@@ -7,6 +7,7 @@
 #include "Rectangular_triangle.h"
 #include "Quadrangle.h"
 #include "Parallelogram.h"
-#include "My_Rectangle.h"
+#include "Rectangle.h"
 #include "Square.h"
 #include "Rhomb.h"
+#include "MyException.h"

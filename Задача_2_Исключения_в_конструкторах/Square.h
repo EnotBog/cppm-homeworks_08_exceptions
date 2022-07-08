@@ -1,8 +1,8 @@
 ﻿#pragma once
-#include "My_Rectangle.h"
+#include "Rectangle.h"
 
 
-class Square : public My_Rectangle // квадрат
+class Square : public Rectangle // квадрат
 {
 public:
 	Square(int a);

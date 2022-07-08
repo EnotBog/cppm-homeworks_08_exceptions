@@ -1,7 +1,7 @@
 ﻿#include "Square.h"
 
 
-Square::Square(int a) :My_Rectangle(a, a)
+Square::Square(int a) :Rectangle(a, a)
 	{
 		this->name = "Квадрат: ";
 	}

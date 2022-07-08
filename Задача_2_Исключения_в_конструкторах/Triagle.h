@@ -1,5 +1,4 @@
 ﻿#pragma once
-#include "Head_includeclass.h"
 #include "Figure.h"
 
 class Triangle : public Figure //треугольник скц
