@@ -18,34 +18,34 @@
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Equilateral_triangle.cpp">
+    <ClCompile Include="Equilateral_triangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Rectangle.cpp">
+    <ClCompile Include="Rectangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Quadrangle.cpp">
+    <ClCompile Include="Quadrangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Rectangular_triangle.cpp">
+    <ClCompile Include="Rectangular_triangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Rhomb.cpp">
+    <ClCompile Include="Rhomb.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Square.cpp">
+    <ClCompile Include="Square.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="classFigure.cpp">
+    <ClCompile Include="Figure.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="classTriagle.cpp">
+    <ClCompile Include="Triagle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="classParallelogram.cpp">
+    <ClCompile Include="Parallelogram.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="class_Isosceles_triangle.cpp">
+    <ClCompile Include="Isosceles_triangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="MyException.cpp">
@@ -60,9 +60,6 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Figure.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Head_includeclass.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Isosceles_triangle.h">

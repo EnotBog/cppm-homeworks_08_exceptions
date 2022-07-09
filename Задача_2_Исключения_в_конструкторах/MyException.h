@@ -1,7 +1,6 @@
 ﻿#pragma once
-
+#include <string>
 #include <exception>
-#include "Head_includeclass.h"
 
 
  class MyException :public std::exception

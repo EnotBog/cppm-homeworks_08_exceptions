@@ -10,7 +10,8 @@ public:
 protected:
 	std::string get_sides();
 	std::string get_corn();
-	void print_info() override;
+	std::string print_info_2() override;
+	
 
 	int a = 0, b = 0, c = 0, d = 0;
 	int A = 0, B = 0, C = 0, D = 0;

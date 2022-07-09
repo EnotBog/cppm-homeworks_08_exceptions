@@ -1,5 +1,4 @@
 #pragma once
-#include "Head_includeclass.h"
 #include "Figure.h"
 #include "Triagle.h"
 #include "Equilateral_triangle.h"

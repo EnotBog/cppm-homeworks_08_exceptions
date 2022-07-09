@@ -7,7 +7,7 @@ public:
 
 	Figure() ;
 
-
+	virtual std::string print_info_2();
 
 	virtual void print_info();
 	

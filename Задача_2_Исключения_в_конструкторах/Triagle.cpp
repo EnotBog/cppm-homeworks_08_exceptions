@@ -19,7 +19,6 @@
 				this->A = A; this->B = B; this->C = C;
 				this->name = "Треугольник:";
 				this->sides_count = 3;
-				std::cout << name << " (стороны " << a << ", " << b << ", " << c  << "; углы " << A << ", " << B << ", " << C  << ")" << " создан " << "\n";
 			}
 	}
 	
@@ -41,5 +40,12 @@
 	void Triangle::print_info() 
 	{
 		std::cout << Triangle::get_name() << "\n" << Triangle::get_sides() << Triangle::get_corn() << "" << " " << " " << "\n"; // 
+	}
+
+	std::string Triangle::print_info_2()
+	{
+		std::string q;
+		return q = name + " (стороны " + std::to_string(a) + ", " + std::to_string(b) + ", " + std::to_string(c) + "; углы " +
+			std::to_string(A) + ", " + std::to_string(B) + ", " + std::to_string(C) +  ")" + " создан " + "\n";
 	}
 

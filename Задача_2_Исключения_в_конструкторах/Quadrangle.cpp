@@ -20,7 +20,6 @@ Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D)
 		this->A = A; this->B = B; this->C = C; this->D = D;
 		this->name = "Четырехугольник:";
 		this->sides_count = 4;
-		std::cout << name << " (стороны " << a << ", " << b << ", " << c << ", " << d << "; углы " << A << ", " << B << ", " << C << ", " << D << ")" << " создан " << "\n";
 		}
 
 	}
@@ -35,7 +34,10 @@ Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D)
 		std::string buf = { "Углы: A=" + std::to_string(A) + " B=" + std::to_string(B) + " C=" + std::to_string(C) + " D=" + std::to_string(D) + "\n" };
 		return buf;
 	}
-	void Quadrangle::print_info() 
+	std::string Quadrangle::print_info_2()
 	{
-		std::cout << Quadrangle::get_name() << "\n" << Quadrangle::get_sides() << Quadrangle::get_corn() << "" << "\n";  
+		std::string q;
+		return q = name +  " (стороны " + std::to_string(a) + ", " + std::to_string(b) + ", " + std::to_string(c) + ", " + std::to_string(d) + "; углы " +
+			 std::to_string(A) + ", " + std::to_string(B) + ", " + std::to_string(C) + ", " + std::to_string(D) + ")" + " создан " + "\n";
+		
 	}
