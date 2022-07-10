@@ -10,8 +10,6 @@
 
 
 
-
-
 std::string print_info_2(Figure* q)
 {
 	return q->print_info_2();

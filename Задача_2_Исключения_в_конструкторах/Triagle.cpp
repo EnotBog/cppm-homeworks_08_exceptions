@@ -37,11 +37,6 @@
 		return buf;
 	}
 
-	void Triangle::print_info() 
-	{
-		std::cout << Triangle::get_name() << "\n" << Triangle::get_sides() << Triangle::get_corn() << "" << " " << " " << "\n"; // 
-	}
-
 	std::string Triangle::print_info_2()
 	{
 		std::string q;

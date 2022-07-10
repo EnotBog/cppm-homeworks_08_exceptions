@@ -9,7 +9,6 @@ public:
 protected:
 	std::string get_sides();
 	std::string get_corn();
-	void print_info() override;
 	std::string print_info_2() override;
 
 

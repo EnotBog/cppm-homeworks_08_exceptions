@@ -3,11 +3,6 @@
 
 Figure::Figure() { sides_count = 0; this->name = "Фигура:"; }
 
- void Figure::print_info()
-{
-	std::cout << get_name() << "\n " << get_corn() << get_sides() << "" << "\n";
-}
-
   std::string Figure::print_info_2()
  {
 	 std::string q;
