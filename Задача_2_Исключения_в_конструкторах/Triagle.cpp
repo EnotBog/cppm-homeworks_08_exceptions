@@ -10,7 +10,7 @@
 				std::string ex_error = "Треугольник: (стороны " + std::to_string(a) + ", " + std::to_string(b) + ", " + std::to_string(c) + "; углы " +
 					std::to_string(A) + ", " + std::to_string(B) + ", " + std::to_string(C) + ")" +
 					" не был создан. Причина: сумма углов не равна 180 градусам " + "\n";
-				throw MyException(ex_error.c_str());
+				throw MyException(ex_error);
 			
 			}
 			else 

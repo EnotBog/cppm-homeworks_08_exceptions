@@ -12,7 +12,7 @@ Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D)
 			std::string ex_error = "Четырехугольник: (стороны " + std::to_string(a) + ", " + std::to_string(b) + ", " + std::to_string(c) + ", " + std::to_string(d) + "; углы " +
 				std::to_string(A) + ", " + std::to_string(B) + ", " + std::to_string(C) + ", " + std::to_string(D) + ")" +
 				" не был создан. Причина: сумма углов не равна 360 " + "\n";
-			throw MyException(ex_error.c_str());
+			throw MyException(ex_error);
 		}
 		else 
 		{

@@ -1,9 +1,7 @@
-﻿#include <exception>
+﻿#include <stdexcept>
 #include "MyException.h"
 
-MyException::MyException(char const* const message) : std::exception(message) {}
 
+MyException::MyException(std::string& message) : std::runtime_error(message) {};
 
-MyException::MyException() {};
-MyException::~MyException() {};
 

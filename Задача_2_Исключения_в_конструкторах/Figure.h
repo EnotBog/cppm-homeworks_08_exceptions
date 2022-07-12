@@ -1,5 +1,5 @@
 #pragma once
-#include "Head_includeclass.h"
+#include <string>
 
 class Figure
 {

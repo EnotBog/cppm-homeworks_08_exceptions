@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <string>
-#include <exception>
+#include <stdexcept>
 
 
- class MyException :public std::exception
+
+ class MyException :public std::runtime_error
  {
  public:
 	
-	 MyException(char const* const message);
+	 MyException(std::string& message);
 
-	 MyException();
-	 ~MyException();
+	 
 
 	 std::string ex_error;
 
