@@ -6,7 +6,11 @@
 #include <windows.h>
 #include <locale.h>
 #include <fstream>
-#include "Header.h"
+#include "Figure.h"
+#include "Quadrangle.h"
+#include "Triagle.h"
+#include "MyException.h"
+
 
 
 

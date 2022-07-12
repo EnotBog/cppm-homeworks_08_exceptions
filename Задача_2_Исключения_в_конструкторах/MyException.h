@@ -10,8 +10,4 @@
 	
 	 MyException(std::string& message);
 
-	 
-
-	 std::string ex_error;
-
  };
