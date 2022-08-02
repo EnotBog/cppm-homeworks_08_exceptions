@@ -8,6 +8,6 @@
  {
  public:
 	
-	 MyException(std::string& message);
+	 MyException(const std::string& message);
 
  };

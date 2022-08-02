@@ -2,6 +2,6 @@
 #include "MyException.h"
 
 
-MyException::MyException(std::string& message) : std::runtime_error(message) {};
+MyException::MyException(const std::string& message) : std::runtime_error(message) {};
 
 

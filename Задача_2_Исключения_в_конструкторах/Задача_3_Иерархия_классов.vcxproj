@@ -128,30 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Figure.cpp" />
-    <ClCompile Include="Triagle.cpp" />
-    <ClCompile Include="Equilateral_triangle.cpp" />
-    <ClCompile Include="Isosceles_triangle.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Quadrangle.cpp" />
-    <ClCompile Include="Rectangular_triangle.cpp" />
-    <ClCompile Include="Rhomb.cpp" />
-    <ClCompile Include="Square.cpp" />
-    <ClCompile Include="Parallelogram.cpp" />
     <ClCompile Include="MyException.cpp" />
+    <ClCompile Include="Triagle.cpp" />
+    <ClCompile Include="Quadrangle.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Equilateral_triangle.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="Header.h" />
-    <ClInclude Include="Isosceles_triangle.h" />
     <ClInclude Include="MyException.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Quadrangle.h" />
-    <ClInclude Include="Rectangular_triangle.h" />
-    <ClInclude Include="Rhomb.h" />
-    <ClInclude Include="Square.h" />
     <ClInclude Include="Triagle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
